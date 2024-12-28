@@ -1,6 +1,6 @@
 pandas 
-numpy
-scikit-learn
 seaborn
-Flask
+numpy
 ipykernel
+scikit-learn
+Flask
