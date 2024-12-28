@@ -6,8 +6,8 @@ import pickle
 app = Flask(__name__)
 
 # Load the saved model and scaler
-ridge_model= pickle.load(open('D:/AI_ML/Algerian_Forest/Model/ridge.pkl','rb'))
-scaler = pickle.load(open('D:/AI_ML/Algerian_Forest/Model/scaler.pkl' ,'rb'))
+ridge_model= pickle.load(open("C:\Users\naman\OneDrive\Desktop\Ai&ML_proj\model\ridge.pkl",'rb'))
+scaler = pickle.load(open("C:\Users\naman\OneDrive\Desktop\Ai&ML_proj\model\scaler.pkl" ,'rb'))
 
 @app.route('/')
 def index():
